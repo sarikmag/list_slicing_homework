@@ -7,7 +7,6 @@ def main(list1,n):
     Returns:
         list: return answer.
     """
-    if n<0:
-        return list1[n-1:]
+    
     return list1[n+1:]
 print(main(('a','b','c','d','e','f'),3))
