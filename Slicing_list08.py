@@ -8,5 +8,5 @@ def main(list1,n):
         list: return answer.
     """
     
-    return list1[::n]
-print(main(('a','b','c','d','e','f'), 5 ))
+    return list1[::-n]
+print(main(('a','b','c','d','e','f'), 2 ))
